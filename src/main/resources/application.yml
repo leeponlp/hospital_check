@@ -1,0 +1,14 @@
+server:
+ port: 8888
+ compression:
+   enabled: true
+   mime-types: text/html,text/xml,text/javascript,text/css,text/plain,application/javascript
+   min-response-size: 2048
+   excluded-user-agents: gozilla,traviata
+ session:
+   timeout: 7200
+
+
+logging:
+  fileDir: hospital_check
+  name: hospital_check

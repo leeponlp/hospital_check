@@ -1,0 +1,6 @@
+baseDatasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url: jdbc:mysql://rm-uf6e3308v0u0og2eto.mysql.rds.aliyuncs.com:3306/common_db?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&autoReconnect=true&failOverReadOnly=false&allowMultiQueries=true
+  username: qybx_dev
+  password: dev@123456
+  type: com.alibaba.druid.pool.DruidDataSource
